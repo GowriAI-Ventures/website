@@ -10,43 +10,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
   <style>
     :root{
-      --bg: #0f172a;
-      --card:#111827;
-      --text:#e5e7eb;
-      --muted:#94a3b8;
-      --accent:#38bdf8;
-      --accent-2:#22d3ee;
+      --bg: #ffffff;
+      --card:#f9fafb;
+      --text:#111111;
+      --muted:#6b7280;
+      --accent:#000000;
+      --accent-2:#555555;
     }
     *{box-sizing:border-box}
     html,body{height:100%}
     body{
       margin:0; font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-      background: radial-gradient(1000px 600px at 80% -10%, rgba(56,189,248,.15), transparent),
-                  radial-gradient(800px 500px at -10% 110%, rgba(34,211,238,.12), transparent), var(--bg);
+      background: var(--bg);
       color:var(--text); display:flex; align-items:center; justify-content:center; padding:24px;
     }
     .wrap{ width:min(960px, 100%); text-align:center }
     .logo{ display:inline-flex; align-items:center; gap:.6rem; margin-bottom:1rem; text-decoration:none; color:var(--text) }
-    .logo-mark{ width:40px; height:40px; border-radius:12px; background:linear-gradient(135deg, var(--accent), var(--accent-2)); display:grid; place-items:center; font-weight:800; color:#0b1220 }
+    .logo-mark{ width:40px; height:40px; border-radius:12px; background:linear-gradient(135deg, var(--accent), var(--accent-2)); display:grid; place-items:center; font-weight:800; color:#ffffff }
     h1{ margin:.25rem 0 .75rem; font-weight:800; font-size: clamp(2rem, 5vw, 3.25rem); letter-spacing:-.02em }
     .sub{ color:var(--muted); font-size: clamp(1rem, 2.5vw, 1.15rem); line-height:1.6; }
 
-    .card{ margin:2rem auto 0; background: rgba(17,24,39,.65); backdrop-filter: blur(8px); border:1px solid rgba(148,163,184,.18); border-radius:20px; padding:24px; width:min(760px, 100%); box-shadow: 0 10px 30px rgba(0,0,0,.25)}
-
-    .countdown{ display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin:8px 0 4px }
-    .timebox{ background:#0b1220; border:1px solid rgba(148,163,184,.16); border-radius:16px; padding:14px 18px; min-width:92px }
-    .val{ font-size:1.8rem; font-weight:800; letter-spacing:.02em }
-    .lbl{ font-size:.8rem; color:var(--muted); text-transform:uppercase; letter-spacing:.18em }
+    .card{ margin:2rem auto 0; background: var(--card); border:1px solid #e5e7eb; border-radius:20px; padding:24px; width:min(760px, 100%); box-shadow: 0 4px 20px rgba(0,0,0,.1)}
 
     form{ display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:18px }
-    input[type=email]{ flex:1 1 260px; max-width:420px; background:#0b1220; border:1px solid rgba(148,163,184,.35); color:var(--text); border-radius:12px; padding:14px 14px; outline:none; font-size:1rem }
-    input[type=email]::placeholder{ color:#7a8699 }
-    button{ background:linear-gradient(135deg, var(--accent), var(--accent-2)); border:none; color:#0b1220; font-weight:800; padding:14px 18px; border-radius:12px; cursor:pointer }
+    input[type=email]{ flex:1 1 260px; max-width:420px; background:#fff; border:1px solid #d1d5db; color:var(--text); border-radius:12px; padding:14px 14px; outline:none; font-size:1rem }
+    input[type=email]::placeholder{ color:#9ca3af }
+    button{ background:var(--accent); border:none; color:#fff; font-weight:800; padding:14px 18px; border-radius:12px; cursor:pointer }
     button:active{ transform: translateY(1px) }
 
     .links{ margin-top:16px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap }
-    .links a{ color:var(--muted); text-decoration:none; border-bottom:1px dashed rgba(148,163,184,.35) }
-    .footer{ margin-top:22px; color:#7c8aa0; font-size:.85rem }
+    .links a{ color:var(--muted); text-decoration:none; border-bottom:1px dashed #d1d5db }
+    .footer{ margin-top:22px; color:#9ca3af; font-size:.85rem }
 
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
   </style>
@@ -61,13 +55,16 @@
     <h1>AI‑first innovation is coming soon ✨</h1>
     <p class="sub">GowriAI.Ventures is the holding company behind a portfolio of GenAI product initiatives. Add your email to be the first to know when we launch.</p>
 
-    <section class="card" aria-label="Countdown and notify form">
+    <section class="card" aria-label="Notify form">
+      <!-- Countdown commented out -->
+      <!--
       <div class="countdown" aria-live="polite">
         <div class="timebox"><div class="val" id="d">—</div><div class="lbl">Days</div></div>
         <div class="timebox"><div class="val" id="h">—</div><div class="lbl">Hours</div></div>
         <div class="timebox"><div class="val" id="m">—</div><div class="lbl">Minutes</div></div>
         <div class="timebox"><div class="val" id="s">—</div><div class="lbl">Seconds</div></div>
       </div>
+      -->
 
       <form action="https://formspree.io/f/your-id" method="POST">
         <label for="email" class="sr-only">Email address</label>
@@ -77,9 +74,9 @@
 
       <div class="links">
         <a href="mailto:hello@gowriai.ventures">Contact</a>
-        <a href="https://github.com/gowriai" rel="noopener">GitHub</a>
-        <a href="https://x.com/gowriai" rel="noopener">X</a>
-        <a href="https://linkedin.com/company/gowriai" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/GowriAI-Ventures" rel="noopener" target="_blank">GitHub</a>
+        <a href="https://x.com/gowriai" rel="noopener" target="_blank">X</a>
+        <a href="https://linkedin.com/company/gowriai" rel="noopener" target="_blank">LinkedIn</a>
       </div>
 
       <p class="footer">© <span id="year"></span> GowriAI.Ventures. All rights reserved.</p>
@@ -87,26 +84,8 @@
   </main>
 
   <script>
-    const launchAt = new Date("2025-12-01T15:00:00Z").getTime();
-    const d = document.getElementById('d');
-    const h = document.getElementById('h');
-    const m = document.getElementById('m');
-    const s = document.getElementById('s');
     const year = document.getElementById('year');
     year.textContent = new Date().getFullYear();
-
-    function pad(n){ return String(n).padStart(2,'0'); }
-    function tick(){
-      const now = Date.now();
-      let diff = Math.max(0, launchAt - now);
-      const days = Math.floor(diff / (1000*60*60*24)); diff -= days*24*60*60*1000;
-      const hours = Math.floor(diff / (1000*60*60)); diff -= hours*60*60*1000;
-      const mins = Math.floor(diff / (1000*60)); diff -= mins*60*1000;
-      const secs = Math.floor(diff / 1000);
-      d.textContent = days; h.textContent = pad(hours); m.textContent = pad(mins); s.textContent = pad(secs);
-    }
-    tick();
-    setInterval(tick, 1000);
 
     document.querySelector('form')?.addEventListener('submit', async (e) => {
       e.preventDefault();
@@ -115,7 +94,7 @@
       try {
         const r = await fetch(form.action, { method: 'POST', body: data, headers: { 'Accept': 'application/json' }});
         if (r.ok) {
-          form.innerHTML = '<strong>Thanks! We\'ll let you know when we launch.</strong>'
+          form.innerHTML = '<strong>Thanks! We\\'ll let you know when we launch.</strong>'
         } else {
           form.innerHTML = '<strong>Something went wrong. Try again later.</strong>'
         }
@@ -126,3 +105,4 @@
   </script>
 </body>
 </html>
+
