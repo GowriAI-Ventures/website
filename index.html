@@ -3,106 +3,599 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Coming Soon — GowriAI.Ventures</title>
-  <meta name="description" content="GowriAI.Ventures is building AI‑first product initiatives in the GenAI space. Stay tuned!" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <title>GowriAI.Ventures</title>
+  <meta
+    name="description"
+    content="GowriAI.Ventures builds and backs practical AI products across security, quantitative reasoning, valuation, and applied enterprise workflows."
+  />
+  <meta
+    name="keywords"
+    content="GowriAI Ventures, AI ventures, applied AI, AI products, AgentFuzz, ThreatValut.ai, Mathz.app, Parametri"
+  />
+  <meta name="author" content="GowriAI.Ventures" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="application-name" content="GowriAI.Ventures" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="geo.region" content="US" />
+  <meta name="geo.placename" content="United States" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="GowriAI.Ventures" />
+  <meta property="og:title" content="GowriAI.Ventures" />
+  <meta
+    property="og:description"
+    content="Applied AI products and initiatives across security, valuation, reasoning, and practical enterprise workflows."
+  />
+  <meta property="og:url" content="https://gowriai.ventures/" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="GowriAI.Ventures" />
+  <meta
+    name="twitter:description"
+    content="Applied AI products and initiatives from GowriAI.Ventures."
+  />
+  <link rel="canonical" href="https://gowriai.ventures/" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="mask-icon" href="/favicon.svg" color="#0f5a47" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "GowriAI.Ventures",
+      "url": "https://gowriai.ventures/",
+      "description": "GowriAI.Ventures builds and backs practical AI products across security, quantitative reasoning, valuation, and applied enterprise workflows.",
+      "sameAs": [
+        "https://github.com/GowriAI-Ventures",
+        "https://x.com/gowriai",
+        "https://linkedin.com/company/gowriai"
+      ],
+      "makesOffer": {
+        "@type": "OfferCatalog",
+        "name": "Initiatives",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "AgentFuzz",
+              "url": "https://agentfuzz.ai"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "ThreatValut.ai",
+              "url": "https://cestatech.com/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "Mathz.app",
+              "url": "https://mathz.app"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "Parametri",
+              "url": "https://parametri.ai/"
+            }
+          }
+        ]
+      }
+    }
+  </script>
   <style>
-    :root{
+    :root {
       --bg: #ffffff;
-      --card:#f9fafb;
-      --text:#111111;
-      --muted:#6b7280;
-      --accent:#000000;
-      --accent-2:#555555;
+      --surface: #ffffff;
+      --line: #e8e8e8;
+      --text: #111111;
+      --muted: #666666;
+      --subtle: #8a8a8a;
+      --accent: #111111;
+      --panel: #fafafa;
+      --radius: 24px;
+      --max-width: 1180px;
     }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0; font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
       background: var(--bg);
-      color:var(--text); display:flex; align-items:center; justify-content:center; padding:24px;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
     }
-    .wrap{ width:min(960px, 100%); text-align:center }
-    .logo{ display:inline-flex; align-items:center; gap:.6rem; margin-bottom:1rem; text-decoration:none; color:var(--text) }
-    .logo-mark{ width:40px; height:40px; border-radius:12px; background:linear-gradient(135deg, var(--accent), var(--accent-2)); display:grid; place-items:center; font-weight:800; color:#ffffff }
-    h1{ margin:.25rem 0 .75rem; font-weight:800; font-size: clamp(2rem, 5vw, 3.25rem); letter-spacing:-.02em }
-    .sub{ color:var(--muted); font-size: clamp(1rem, 2.5vw, 1.15rem); line-height:1.6; }
 
-    .card{ margin:2rem auto 0; background: var(--card); border:1px solid #e5e7eb; border-radius:20px; padding:24px; width:min(760px, 100%); box-shadow: 0 4px 20px rgba(0,0,0,.1)}
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-    form{ display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:18px }
-    input[type=email]{ flex:1 1 260px; max-width:420px; background:#fff; border:1px solid #d1d5db; color:var(--text); border-radius:12px; padding:14px 14px; outline:none; font-size:1rem }
-    input[type=email]::placeholder{ color:#9ca3af }
-    button{ background:var(--accent); border:none; color:#fff; font-weight:800; padding:14px 18px; border-radius:12px; cursor:pointer }
-    button:active{ transform: translateY(1px) }
+    img {
+      max-width: 100%;
+      display: block;
+    }
 
-    .links{ margin-top:16px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap }
-    .links a{ color:var(--muted); text-decoration:none; border-bottom:1px dashed #d1d5db }
-    .footer{ margin-top:22px; color:#9ca3af; font-size:.85rem }
+    .page {
+      width: min(calc(100% - 40px), var(--max-width));
+      margin: 0 auto;
+    }
 
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      padding: 84px 0 72px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .kicker {
+      margin: 0 0 18px;
+      color: var(--subtle);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 10ch;
+      font-size: clamp(3.2rem, 8vw, 6.8rem);
+      line-height: 0.93;
+      letter-spacing: -0.07em;
+      font-weight: 700;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.7fr);
+      gap: 40px;
+      align-items: end;
+      margin-top: 28px;
+    }
+
+    .lead {
+      margin: 0;
+      max-width: 58ch;
+      color: var(--muted);
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease;
+    }
+
+    .button-primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #ffffff;
+    }
+
+    .button-secondary {
+      background: var(--surface);
+      color: var(--text);
+    }
+
+    .hero-note {
+      padding: 26px 0 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+      line-height: 1.8;
+    }
+
+    .section {
+      padding: 52px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-header {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      gap: 24px;
+      margin-bottom: 28px;
+    }
+
+    .section-header h2 {
+      margin: 0;
+      font-size: clamp(1.7rem, 4vw, 2.6rem);
+      line-height: 1;
+      letter-spacing: -0.05em;
+      font-weight: 650;
+    }
+
+    .section-header p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.8;
+      font-size: 1rem;
+    }
+
+    .capabilities {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .capability {
+      padding: 24px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+
+    .capability h3 {
+      margin: 0 0 10px;
+      font-size: 1rem;
+      letter-spacing: -0.03em;
+    }
+
+    .capability p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.75;
+    }
+
+    .initiatives {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .initiative {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+
+    .initiative-head {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 14px;
+    }
+
+    .initiative h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      letter-spacing: -0.04em;
+      font-weight: 650;
+    }
+
+    .initiative p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      line-height: 1.75;
+    }
+
+    .status {
+      flex-shrink: 0;
+      color: var(--subtle);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 0 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 0.84rem;
+      white-space: nowrap;
+    }
+
+    .link-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      color: var(--text);
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 22px 0 40px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    @media (max-width: 920px) {
+      .hero-grid,
+      .section-header,
+      .capabilities,
+      .initiatives {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        width: min(calc(100% - 24px), var(--max-width));
+      }
+
+      .topbar,
+      .footer {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .hero {
+        padding: 56px 0 52px;
+      }
+
+      h1 {
+        max-width: 11ch;
+        font-size: clamp(2.8rem, 14vw, 4.4rem);
+      }
+
+      .initiative-head,
+      .link-row {
+        flex-direction: column;
+        align-items: start;
+      }
+    }
   </style>
 </head>
 <body>
-  <main class="wrap" role="main">
-    <a class="logo" href="#" aria-label="Homepage">
-      <span class="logo-mark" aria-hidden="true">GV</span>
-      <strong>GowriAI.Ventures</strong>
-    </a>
+  <script>
+    const capabilities = [
+      {
+        title: "AI Product Design",
+        description: "Designing focused products that turn model capability into clear end-user value without excess interface or workflow complexity."
+      },
+      {
+        title: "Applied Systems",
+        description: "Building evaluation-driven workflows, copilots, and agentic systems for domain-specific tasks across enterprise and consumer contexts."
+      },
+      {
+        title: "Security and Reasoning",
+        description: "Exploring applied security tooling, valuation support, and mathematical reasoning products where accuracy and usability both matter."
+      }
+    ];
 
-    <h1>AI‑first innovation is coming soon ✨</h1>
-    <p class="sub">GowriAI.Ventures is the holding company behind a portfolio of GenAI product initiatives. Add your email to be the first to know when we launch.</p>
+    const initiatives = [
+      {
+        name: "AgentFuzz",
+        url: "https://agentfuzz.ai",
+        status: "Live",
+        description: "AI-assisted security testing and agent-driven fuzzing workflows for modern software systems.",
+        tags: ["Security", "Agents", "Testing"]
+      },
+      {
+        name: "ThreatValut.ai",
+        url: "https://cestatech.com/",
+        status: "With Cesta",
+        description: "A joint effort with Cesta focused on AI-supported threat valuation and stronger security decision support.",
+        tags: ["Security", "Valuation", "Joint Effort"],
+        partner: {
+          name: "Cesta",
+          url: "https://cestatech.com/"
+        }
+      },
+      {
+        name: "Mathz.app",
+        url: "https://mathz.app",
+        status: "Live",
+        description: "AI-assisted mathematical reasoning delivered in a cleaner, more accessible product experience.",
+        tags: ["Education", "Reasoning", "Consumer"]
+      },
+      {
+        name: "Parametri",
+        url: "https://parametri.ai/",
+        status: "Active",
+        description: "An applied AI initiative centered on structured workflows and decision-oriented product experiences.",
+        tags: ["Workflow AI", "Decision Support", "Applied Systems"]
+      }
+    ];
+  </script>
 
-    <section class="card" aria-label="Notify form">
-      <!-- Countdown commented out -->
-      <!--
-      <div class="countdown" aria-live="polite">
-        <div class="timebox"><div class="val" id="d">—</div><div class="lbl">Days</div></div>
-        <div class="timebox"><div class="val" id="h">—</div><div class="lbl">Hours</div></div>
-        <div class="timebox"><div class="val" id="m">—</div><div class="lbl">Minutes</div></div>
-        <div class="timebox"><div class="val" id="s">—</div><div class="lbl">Seconds</div></div>
-      </div>
-      -->
-
-      <form action="https://formspree.io/f/your-id" method="POST">
-        <label for="email" class="sr-only">Email address</label>
-        <input id="email" name="email" type="email" placeholder="you@company.com" required>
-        <button type="submit">Notify me</button>
-      </form>
-
-      <div class="links">
+  <div class="page">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="GowriAI.Ventures home">
+        <span class="brand-mark" aria-hidden="true">GV</span>
+        <span>GowriAI.Ventures</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#initiatives">Initiatives</a>
+        <a href="#capabilities">Capabilities</a>
         <a href="mailto:hello@gowriai.ventures">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="kicker">Applied AI ventures</p>
+        <h1>Practical products built around model capability.</h1>
+        <div class="hero-grid">
+          <div>
+            <p class="lead">
+              GowriAI.Ventures builds and backs AI products across security, valuation,
+              reasoning, and structured enterprise workflows. The emphasis is simple:
+              useful systems, clear interfaces, and products that earn their place.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#initiatives">View initiatives</a>
+              <a class="button button-secondary" href="mailto:hello@gowriai.ventures">Get in touch</a>
+            </div>
+          </div>
+          <p class="hero-note">
+            A small portfolio with room to grow. New products and initiatives are rendered from
+            a single data list in the page script, which keeps updates easy in a public GitHub Pages repo.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="capabilities" aria-labelledby="capabilities-title">
+        <div class="section-header">
+          <h2 id="capabilities-title">Capabilities</h2>
+          <p>
+            The work spans product design, domain-specific AI systems, evaluation-minded
+            workflows, and applied research areas where model output has to translate into
+            something operationally useful.
+          </p>
+        </div>
+        <div class="capabilities" id="capability-grid"></div>
+      </section>
+
+      <section class="section" id="initiatives" aria-labelledby="initiatives-title">
+        <div class="section-header">
+          <h2 id="initiatives-title">Initiatives</h2>
+          <p>
+            Current products and active efforts. Adding the next one is a single object change,
+            not a new chunk of hand-written markup.
+          </p>
+        </div>
+        <div class="initiatives" id="initiative-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> GowriAI.Ventures</span>
+      <div class="footer-links">
         <a href="https://github.com/GowriAI-Ventures" rel="noopener" target="_blank">GitHub</a>
         <a href="https://x.com/gowriai" rel="noopener" target="_blank">X</a>
         <a href="https://linkedin.com/company/gowriai" rel="noopener" target="_blank">LinkedIn</a>
+        <a href="mailto:hello@gowriai.ventures">hello@gowriai.ventures</a>
       </div>
-
-      <p class="footer">© <span id="year"></span> GowriAI.Ventures. All rights reserved.</p>
-    </section>
-  </main>
+    </footer>
+  </div>
 
   <script>
-    const year = document.getElementById('year');
-    year.textContent = new Date().getFullYear();
+    const capabilityGrid = document.getElementById("capability-grid");
+    const initiativeGrid = document.getElementById("initiative-grid");
 
-    document.querySelector('form')?.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const form = e.currentTarget;
-      const data = new FormData(form);
-      try {
-        const r = await fetch(form.action, { method: 'POST', body: data, headers: { 'Accept': 'application/json' }});
-        if (r.ok) {
-          form.innerHTML = '<strong>Thanks! We\\'ll let you know when we launch.</strong>'
-        } else {
-          form.innerHTML = '<strong>Something went wrong. Try again later.</strong>'
-        }
-      } catch (err) {
-        form.innerHTML = '<strong>Network error. Please try again.</strong>'
-      }
+    capabilities.forEach((capability) => {
+      const item = document.createElement("article");
+      item.className = "capability";
+      item.innerHTML = `
+        <h3>${capability.title}</h3>
+        <p>${capability.description}</p>
+      `;
+      capabilityGrid.appendChild(item);
     });
+
+    initiatives.forEach((initiative) => {
+      const item = document.createElement("article");
+      item.className = "initiative";
+      const pills = initiative.tags.map((tag) => `<span class="pill">${tag}</span>`).join("");
+      const partnerLink = initiative.partner
+        ? `<a href="${initiative.partner.url}" rel="noopener" target="_blank">Partner: ${initiative.partner.name}</a>`
+        : "";
+
+      item.innerHTML = `
+        <div class="initiative-head">
+          <h3>${initiative.name}</h3>
+          <span class="status">${initiative.status}</span>
+        </div>
+        <p>${initiative.description}</p>
+        <div class="meta">${pills}</div>
+        <div class="link-row">
+          <a href="${initiative.url}" rel="noopener" target="_blank">Visit site</a>
+          ${partnerLink}
+        </div>
+      `;
+
+      initiativeGrid.appendChild(item);
+    });
+
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
-

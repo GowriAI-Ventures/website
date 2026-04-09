@@ -1,0 +1,24 @@
+# GowriAI.Ventures
+
+GowriAI.Ventures builds and backs practical AI products across security, quantitative reasoning, valuation, and applied enterprise workflows.
+
+## Site
+- Homepage: https://gowriai.ventures/
+- Contact: mailto:hello@gowriai.ventures
+
+## Initiatives
+- AgentFuzz: https://agentfuzz.ai
+  AI-assisted security testing and agent-driven fuzzing workflows.
+- ThreatValut.ai: https://cestatech.com/
+  Joint effort with Cesta focused on AI-supported threat valuation and security decision support.
+- Mathz.app: https://mathz.app
+  AI-assisted mathematical reasoning in an accessible product experience.
+- Parametri: https://parametri.ai/
+  Applied AI initiative centered on structured workflows and decision-oriented experiences.
+
+## Capabilities
+- AI product design and rapid prototyping
+- Evaluation-driven systems
+- Domain-specific copilots and agentic workflows
+- Applied security experimentation
+- User-facing tools for enterprise and consumer use cases
