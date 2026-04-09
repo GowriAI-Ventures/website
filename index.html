@@ -306,6 +306,12 @@
       gap: 16px;
     }
 
+    .team {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
     .initiative {
       padding: 24px;
       border: 1px solid var(--line);
@@ -359,6 +365,47 @@
       font-weight: 600;
     }
 
+    .person {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+
+    .person-image {
+      width: 88px;
+      height: 88px;
+      margin-bottom: 18px;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: #f4f4f4;
+    }
+
+    .person-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .person h3 {
+      margin: 0 0 6px;
+      font-size: 1.08rem;
+      letter-spacing: -0.03em;
+    }
+
+    .person-role {
+      margin: 0 0 12px;
+      color: var(--subtle);
+      font-size: 0.92rem;
+    }
+
+    .person p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      line-height: 1.75;
+    }
+
     .footer {
       display: flex;
       align-items: center;
@@ -380,7 +427,8 @@
       .hero-grid,
       .section-header,
       .capabilities,
-      .initiatives {
+      .initiatives,
+      .team {
         grid-template-columns: 1fr;
       }
     }
@@ -459,6 +507,23 @@
         tags: ["Blueprint AI", "Document Intelligence", "Design Analysis"]
       }
     ];
+
+    const leadership = [
+      {
+        name: "Manoj Bharadwaj",
+        role: "Co-Founder",
+        blurb: "Co-founder working across product direction, AI systems, venture formation, and the broader portfolio.",
+        image: "/assets/images/manoj-profile.png",
+        linkedin: "https://www.linkedin.com/in/manojbharadwaj/"
+      },
+      {
+        name: "Aarti Bharadwaj",
+        role: "Co-Founder",
+        blurb: "Co-founder helping guide company direction, relationships, and the long-term growth of the venture platform.",
+        image: "/assets/images/aarti-profile.png",
+        linkedin: "https://www.linkedin.com/in/aartibharadwaj/"
+      }
+    ];
   </script>
 
   <div class="page">
@@ -482,8 +547,8 @@
           <div>
             <p class="lead">
               GowriAI.Ventures builds and backs AI products across security, valuation,
-              reasoning, and structured enterprise workflows. The emphasis is simple:
-              useful systems, clear interfaces, and products that earn their place.
+              reasoning, and structured enterprise workflows. It is the product venture:
+              a holding and investment vehicle for multiple applied AI products.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#initiatives">View initiatives</a>
@@ -514,6 +579,17 @@
         </div>
         <div class="initiatives" id="initiative-grid"></div>
       </section>
+
+      <section class="section" id="leadership" aria-labelledby="leadership-title">
+        <div class="section-header">
+          <h2 id="leadership-title">Leadership</h2>
+          <p>
+            GowriAI.Ventures is led by Manoj Bharadwaj and Aarti Bharadwaj. They also co-founded
+            <a href="https://cloudcosmos.tech/" rel="noopener" target="_blank">CloudCosmos</a>, the associated services company, while GowriAI.Ventures remains the product and venture platform.
+          </p>
+        </div>
+        <div class="team" id="leadership-grid"></div>
+      </section>
     </main>
 
     <footer class="footer">
@@ -530,6 +606,7 @@
   <script>
     const capabilityGrid = document.getElementById("capability-grid");
     const initiativeGrid = document.getElementById("initiative-grid");
+    const leadershipGrid = document.getElementById("leadership-grid");
 
     capabilities.forEach((capability) => {
       const item = document.createElement("article");
@@ -562,6 +639,21 @@
       `;
 
       initiativeGrid.appendChild(item);
+    });
+
+    leadership.forEach((person) => {
+      const item = document.createElement("article");
+      item.className = "person";
+      item.innerHTML = `
+        <div class="person-image">
+          <img src="${person.image}" alt="${person.name}" />
+        </div>
+        <h3>${person.name}</h3>
+        <p class="person-role">${person.role}</p>
+        <p>${person.blurb}</p>
+        <a href="${person.linkedin}" rel="noopener" target="_blank">View LinkedIn</a>
+      `;
+      leadershipGrid.appendChild(item);
     });
 
     document.getElementById("year").textContent = new Date().getFullYear();
