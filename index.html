@@ -314,10 +314,6 @@
     }
 
     .initiative-head {
-      display: flex;
-      align-items: start;
-      justify-content: space-between;
-      gap: 16px;
       margin-bottom: 14px;
     }
 
@@ -332,15 +328,6 @@
       margin: 0 0 18px;
       color: var(--muted);
       line-height: 1.75;
-    }
-
-    .status {
-      flex-shrink: 0;
-      color: var(--subtle);
-      font-size: 0.78rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
     }
 
     .meta {
@@ -418,7 +405,6 @@
         font-size: clamp(2.8rem, 14vw, 4.4rem);
       }
 
-      .initiative-head,
       .link-row {
         flex-direction: column;
         align-items: start;
@@ -447,14 +433,12 @@
       {
         name: "AgentFuzz.ai",
         url: "https://agentfuzz.ai",
-        status: "Live",
         description: "AI vulnerability assessment and assurance for AI systems, aligned with OWASP LLM Top 10 and NIST AI RMF to identify prompt injection, data leakage, and emerging risks.",
         tags: ["AI Security", "Vulnerability Assessment", "Assurance"]
       },
       {
         name: "ThreatVault.ai",
         url: "https://threatvault.ai",
-        status: "Live",
         description: "Curated AI threat intelligence, adversarial technique libraries, and automated coverage analysis for teams securing AI systems.",
         tags: ["Threat Intelligence", "AI Security", "Coverage Analysis"],
         partner: {
@@ -465,14 +449,12 @@
       {
         name: "Mathz.app",
         url: "https://mathz.app",
-        status: "Live",
         description: "Interactive math lessons from Algebra to Calculus where sliders, graphs, and direct manipulation build real intuition.",
         tags: ["Interactive Learning", "Algebra to Calculus", "Math Intuition"]
       },
       {
         name: "Parametri.ai",
         url: "https://parametri.ai/",
-        status: "Active",
         description: "Transform blueprints and floor plans into intelligent, interactive documents with AI-powered text extraction, object detection, and design analysis.",
         tags: ["Blueprint AI", "Document Intelligence", "Design Analysis"]
       }
@@ -570,7 +552,6 @@
       item.innerHTML = `
         <div class="initiative-head">
           <h3>${initiative.name}</h3>
-          <span class="status">${initiative.status}</span>
         </div>
         <p>${initiative.description}</p>
         <div class="meta">${pills}</div>
