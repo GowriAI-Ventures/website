@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GowriAI Ventures favicon">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#08392d" />
-      <stop offset="100%" stop-color="#0f5a47" />
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="18" fill="url(#bg)" />
-  <path d="M18 32c0-8.8 5.8-14 14-14 5.2 0 9.1 2 11.7 5.7l-5.6 4c-1.4-2-3.4-3-6-3-4.3 0-7.3 3-7.3 7.3 0 4.4 3 7.4 7.3 7.4 2.8 0 5-.9 6.7-2.7v-1.1h-7v-5.5H45v8.8C41.7 53 37.5 55 31.8 55 23.7 55 18 49.8 18 41.8V32Z" fill="#f6f6ef" />
-  <path d="M47 19h-6.1L33 12h7.2L47 19Z" fill="#d8b26c" />
+  <rect x="8" y="8" width="48" height="48" rx="14" fill="#ffffff" stroke="#e8e8e8" stroke-width="2" />
+  <text
+    x="32"
+    y="37"
+    text-anchor="middle"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="17"
+    font-weight="700"
+    fill="#111111"
+  >GV</text>
 </svg>
