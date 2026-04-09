@@ -564,7 +564,7 @@
       item.className = "initiative";
       const pills = initiative.tags.map((tag) => `<span class="pill">${tag}</span>`).join("");
       const partnerLink = initiative.partner
-        ? `<a href="${initiative.partner.url}" rel="noopener" target="_blank">Partner: ${initiative.partner.name}</a>`
+        ? `<a href="${initiative.partner.url}" rel="noopener" target="_blank">In partnership with ${initiative.partner.name}</a>`
         : "";
 
       item.innerHTML = `
