@@ -319,6 +319,28 @@
       background: var(--panel);
     }
 
+    .initiative-shot {
+      display: block;
+      margin: 0 0 18px;
+      aspect-ratio: 16 / 10;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #ffffff;
+    }
+
+    .initiative-shot img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      transition: transform 180ms ease;
+    }
+
+    .initiative:hover .initiative-shot img {
+      transform: scale(1.02);
+    }
+
     .initiative-head {
       margin-bottom: 14px;
     }
@@ -328,6 +350,12 @@
       font-size: 1.2rem;
       letter-spacing: -0.04em;
       font-weight: 650;
+    }
+
+    .initiative-title-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
     }
 
     .initiative p {
@@ -358,7 +386,6 @@
     .link-row {
       display: flex;
       align-items: center;
-      justify-content: space-between;
       gap: 12px;
       color: var(--text);
       font-size: 0.95rem;
@@ -506,12 +533,14 @@
       {
         name: "AgentFuzz.ai",
         url: "https://agentfuzz.ai",
+        image: "/assets/images/initiatives/agentfuzz-ai.png",
         description: "AI vulnerability assessment and assurance for AI systems, aligned with OWASP LLM Top 10 and NIST AI RMF to identify prompt injection, data leakage, and emerging risks.",
         tags: ["AI Security", "Vulnerability Assessment", "Assurance"]
       },
       {
         name: "ThreatVault.ai",
         url: "https://threatvault.ai",
+        image: "/assets/images/initiatives/threatvault-ai.png",
         description: "Curated AI threat intelligence, adversarial technique libraries, and automated coverage analysis for teams securing AI systems.",
         tags: ["Threat Intelligence", "AI Security", "Coverage Analysis"],
         partner: {
@@ -522,12 +551,14 @@
       {
         name: "Mathz.app",
         url: "https://mathz.app",
+        image: "/assets/images/initiatives/mathz-app.png",
         description: "Interactive math lessons from Algebra to Calculus where sliders, graphs, and direct manipulation build real intuition.",
         tags: ["Interactive Learning", "Algebra to Calculus", "Math Intuition"]
       },
       {
         name: "Parametri.ai",
         url: "https://parametri.ai/",
+        image: "/assets/images/initiatives/parametri-ai.png",
         description: "Transform blueprints and floor plans into intelligent, interactive documents with AI-powered text extraction, object detection, and design analysis.",
         tags: ["Blueprint AI", "Document Intelligence", "Design Analysis"]
       }
@@ -652,13 +683,15 @@
         : "";
 
       item.innerHTML = `
+        <a class="initiative-shot" href="${initiative.url}" rel="noopener" target="_blank" aria-label="${initiative.name}">
+          <img src="${initiative.image}" alt="${initiative.name} preview" />
+        </a>
         <div class="initiative-head">
-          <h3>${initiative.name}</h3>
+          <h3><a class="initiative-title-link" href="${initiative.url}" rel="noopener" target="_blank">${initiative.name}</a></h3>
         </div>
         <p>${initiative.description}</p>
         <div class="meta">${pills}</div>
         <div class="link-row">
-          <a href="${initiative.url}" rel="noopener" target="_blank">Visit site</a>
           ${partnerLink}
         </div>
       `;
