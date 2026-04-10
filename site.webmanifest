@@ -3,8 +3,8 @@
   "short_name": "GowriAI",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f5f1e8",
-  "theme_color": "#0f5a47",
+  "background_color": "#fbfbf8",
+  "theme_color": "#fbfbf8",
   "icons": [
     {
       "src": "/favicon.svg",

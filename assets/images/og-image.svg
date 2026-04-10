@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">GowriAI.Ventures</title>
+  <desc id="desc">Applied AI products across security, reasoning, valuation, and enterprise workflows.</desc>
+  <rect width="1200" height="630" fill="#fbfbf8"/>
+  <rect x="58" y="58" width="1084" height="514" rx="34" fill="#fafafa" stroke="#e8e8e8"/>
+  <rect x="106" y="106" width="92" height="92" rx="24" fill="#111111"/>
+  <text x="152" y="165" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#fbfbf8">GV</text>
+  <text x="106" y="258" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="-2" fill="#111111">GowriAI.Ventures</text>
+  <text x="106" y="322" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#666666">Applied AI products across security, reasoning, valuation,</text>
+  <text x="106" y="362" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#666666">and structured enterprise workflows.</text>
+  <g transform="translate(106 434)">
+    <rect width="166" height="40" rx="20" fill="#ffffff" stroke="#e8e8e8"/>
+    <text x="83" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#666666">AgentFuzz.ai</text>
+    <rect x="180" width="176" height="40" rx="20" fill="#ffffff" stroke="#e8e8e8"/>
+    <text x="268" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#666666">ThreatVault.ai</text>
+    <rect x="370" width="132" height="40" rx="20" fill="#ffffff" stroke="#e8e8e8"/>
+    <text x="436" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#666666">Mathz.app</text>
+    <rect x="516" width="150" height="40" rx="20" fill="#ffffff" stroke="#e8e8e8"/>
+    <text x="591" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#666666">Parametri.ai</text>
+  </g>
+</svg>
