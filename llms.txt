@@ -6,6 +6,9 @@ GowriAI.Ventures builds and backs practical AI products across security, quantit
 - Homepage: https://gowriai.ventures/
 - Contact: mailto:hello@gowriai.ventures
 
+## Super Intelligence
+GowriAI.Ventures builds toward Super Intelligence (SI) through focused products in retrieval, agentic workflows, security, and evaluation. The venture platform focuses on increasingly capable systems that connect reasoning, knowledge, and action, with clear measures of usefulness and reliability.
+
 ## Initiatives
 - AgentFuzz.ai: https://agentfuzz.ai
   AI vulnerability assessment and assurance aligned with OWASP LLM Top 10 and NIST AI RMF.
