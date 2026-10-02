@@ -1,6 +1,6 @@
 # GowriAI.Ventures
 
-GowriAI.Ventures builds and backs practical AI products across security, quantitative reasoning, valuation, and applied enterprise workflows.
+GowriAI.Ventures builds and backs practical SI / AI products across security, quantitative reasoning, valuation, and applied enterprise workflows.
 
 ## Site
 - Homepage: https://gowriai.ventures/
@@ -24,4 +24,4 @@ GowriAI.Ventures builds toward Super Intelligence (SI) through focused products 
 - LLM systems and agentic workflows
 - Retrieval, search, and knowledge systems
 - Vision, document understanding, and evaluation systems
-- Applied AI product design across security, reasoning, and enterprise workflows
+- Applied SI / AI product design across security, reasoning, and enterprise workflows
