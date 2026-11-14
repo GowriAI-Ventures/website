@@ -1,0 +1,38 @@
+.release { background: #110f16; color: #f5f1e8; }
+.release-header { max-width: 1260px; margin: auto; padding: 21px clamp(18px, 5vw, 48px); display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+.release-header .wordmark { margin: 0; }
+.release-header nav { display: flex; gap: clamp(8px, 2vw, 22px); }
+.release-header nav a { padding: 5px; }
+.release-main { width: 100%; margin: auto; max-width: 1260px; padding: 0 clamp(18px, 5vw, 48px); }
+.release-hero { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, .7fr); align-items: center; gap: clamp(22px, 6vw, 90px); padding: clamp(32px, 7vw, 86px) 0; }
+.release-hero h1 { margin: 18px 0; font-size: clamp(62px, 9vw, 124px); line-height: .86; letter-spacing: -.09em; }
+.release-hero h1 em { font: italic .95em/.9 "Instrument Serif", Georgia, serif; color: var(--lime); letter-spacing: -.045em; }
+.lede { max-width: 460px; font-size: clamp(17px, 2vw, 22px); line-height: 1.5; color: var(--muted); margin: 24px 0; }
+.release-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.release-reel { margin: 0; display: grid; gap: 12px; justify-items: center; }
+.release-reel video { width: min(100%, 252px); aspect-ratio: 9 / 16; object-fit: cover; border-radius: 20px; border: 1px solid #ffffff35; background: #282035; box-shadow: 0 22px 100px #8653d446; }
+.release-reel figcaption { text-align: center; font: 500 10px var(--mono); color: var(--muted); letter-spacing: .12em; }
+.release-section { border-top: 1px solid #ffffff24; padding: 38px 0; }
+.release-section h2 { font-size: clamp(32px, 5vw, 56px); margin: 8px 0 20px; letter-spacing: -.06em; }
+.release-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+.release-grid.plans { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.release-card { display: grid; align-content: start; justify-items: start; gap: 12px; padding: clamp(16px, 3vw, 30px); border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+.release-card h3 { font-size: 25px; letter-spacing: -.04em; }
+.release-card p, .release-card li, .pricing-note { color: var(--muted); line-height: 1.55; }
+.release-card ul { margin: 0 0 4px; padding-left: 20px; }
+.release-card .price { font-size: 45px; font-weight: 700; color: var(--text); line-height: 1; letter-spacing: -.055em; }
+.release-card .price small { font-size: 13px; letter-spacing: normal; color: var(--muted); }
+.release-card.featured { border-color: #6b8050; background: #22261c; }
+.card-link { color: var(--lime); font-size: 13px; }
+.pricing-note { font-size: 13px; margin: 14px 0; }
+.brand-footer a:hover { color: var(--lime); }
+@media(max-width:640px) {
+  .release-hero, .release-grid, .release-grid.plans { grid-template-columns: 1fr; }
+  .release-header { flex-wrap: wrap; }
+  .release-header nav { order: 3; width: 100%; }
+  .release-hero h1 { font-size: clamp(58px, 12.8vw, 84px); }
+}
+.demo-main h1 { font-size: clamp(48px, 7vw, 92px); letter-spacing: -.075em; }
+.demo-main .lede { max-width: 640px; }
+.demo-video { width: 100%; display: block; aspect-ratio: 16 / 9; background: var(--input); border: 1px solid var(--line); border-radius: 14px; }
+.demo-downloads { margin-top: 14px; }

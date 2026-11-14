@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100e17">
+  <title>Market Radar · Brandalytics</title>
+  <link rel="icon" href="/brandalytics/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/brandalytics/static/studio/studio.css">
+  <script type="module" src="/brandalytics/static/studio/studio.js"></script>
+</head>
+<body data-base-path="/brandalytics" data-creator="false" data-live="false" data-preview-only="true">
+  <a href="#main" class="skip">Skip to content</a>
+    <aside class="rail">
+    <a class="wordmark" href="/brandalytics/"><span class="logo" aria-hidden="true">✳</span> Brandalytics<span class="brand-dot">.</span></a>
+    <nav aria-label="Workspace">
+      <div class="nav-label">Workspace</div>
+      <a href="/brandalytics/studio/radar" aria-current="page"><span aria-hidden="true">◎</span> Market Radar</a>
+      <a href="/brandalytics/studio/creator" ><span aria-hidden="true">▣</span> Creator Studio</a>
+      <a href="/brandalytics/demo"><span aria-hidden="true">↗</span> Product demo</a>
+    </nav>
+
+  </aside>
+  <main id="main">
+    <header class="topbar">
+      <div class="breadcrumb"><span>Workspace</span><b aria-hidden="true">/</b> Market Radar</div>
+      <a class="quiet-button" href="/brandalytics/demo">Product demo ↗</a>
+    </header>
+    <div class="workspace">
+      <section class="hero ">
+        <canvas id="hero-art" aria-hidden="true"></canvas>
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="live-dot"></span> SEARCH &amp; COMPETITIVE INTELLIGENCE</div>
+          <h1>Market Radar</h1>
+          <p>See which brands show up in Google Search and AI Overviews, with the evidence behind every mention.</p>
+        </div>
+      </section>
+
+
+      <section class="panel configuration" aria-labelledby="scan-heading">
+        <div class="panel-header"><div><h2 id="scan-heading">Configure a scan</h2><p>Open a dated snapshot to inspect the search evidence.</p></div><label>Sample scan<select id="sample-scan"><option value="">Choose a sample</option><option value="illustrative">Running shoes · illustrative</option></select></label></div>
+        <form id="scan-form">
+          <div class="form-grid">
+            <label>Brand<input name="brand" maxlength="60" minlength="2" required value="HOKA"></label>
+            <label>Competitors<input name="peers" maxlength="184" value="Brooks, ASICS, Nike" placeholder="Separate names with commas"></label>
+            <label>Google market<select name="country"><option value="us">United States</option><option value="gb">United Kingdom</option><option value="ca">Canada</option><option value="au">Australia</option></select></label>
+          </div>
+          <div class="query-line">
+            <label>Discovery query<input name="query" maxlength="160" minlength="3" required value="What are the best running shoes for new runners?"></label>
+
+          </div>
+        </form>
+        <div id="scan-feedback" class="feedback" role="status"></div>
+      </section>
+      <section aria-labelledby="visibility-heading" class="visibility">
+        <div class="section-header">
+          <div><div class="eyebrow" id="result-mode">EXAMPLE DATA</div><h2 id="visibility-heading">Visibility snapshot</h2></div>
+          <label class="history" id="history-wrap" hidden>Saved scans<select id="history" aria-label="Saved scans"></select></label>
+        </div>
+        <div id="metrics" class="metrics"></div>
+        <div class="report-grid">
+          <article class="panel report-panel">
+            <div class="panel-header"><div><h3>Search visibility</h3><p>Results with a brand mention in the title or snippet</p></div><span class="panel-icon" aria-hidden="true">≋</span></div>
+            <div id="bars" class="bars"></div>
+            <p class="report-note" id="comparison"></p>
+          </article>
+          <article class="panel report-panel">
+            <div class="panel-header"><div><h3>Google AI Overview</h3><p>Answer text and citations supplied by Google Search data</p></div><span class="panel-icon violet" aria-hidden="true">✦</span></div>
+            <div id="overview"></div>
+          </article>
+        </div>
+        <article class="panel evidence">
+          <div class="panel-header"><div><h3>Search evidence</h3><p>Open a result to review the full source.</p></div><label class="filter">Filter by brand<select id="brand-filter"></select></label></div>
+          <div id="evidence"></div>
+        </article>
+        <details class="receipt" id="scan-receipt" hidden><summary>Treg receipt</summary><p></p></details>
+      </section>
+
+      <footer class="brand-footer"><a href="https://brandalytics.ai">brandalytics.ai</a><span>·</span><span>Created by <a href="https://gowriai.ventures">GowriAI Ventures</a></span></footer>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,22 @@
+:root[data-bs-theme="dark"] {
+  --bs-body-bg: #100e16;
+  --bs-body-color: #f6f2fb;
+  --bs-secondary-color: #b2a9c1;
+  --bs-tertiary-bg: #191622;
+  --bs-border-color: #30293d;
+  --bs-link-color-rgb: 187,165,255;
+  --bs-link-hover-color-rgb: 218,251,146;
+}
+.navbar.bg-dark { background: #14111c !important; border-bottom: 1px solid #30293d; }
+.legacy-mark { display: inline-grid; place-items: center; width: 29px; height: 29px; border-radius: 8px; background: #dafb92; color: #171c10; font-size: 22px; }
+.legacy-dot { color: #dafb92; }
+.card { --bs-card-bg: #191622; }
+.btn-primary {
+  --bs-btn-color: #171c10; --bs-btn-bg: #dafb92; --bs-btn-border-color: #dafb92;
+  --bs-btn-hover-color: #171c10; --bs-btn-hover-bg: #cdeb88; --bs-btn-hover-border-color: #cdeb88;
+}
+.btn-outline-primary {
+  --bs-btn-color: #bba5ff; --bs-btn-border-color: #766696;
+  --bs-btn-hover-color: #171221; --bs-btn-hover-bg: #bba5ff; --bs-btn-hover-border-color: #bba5ff;
+}
+.brand-footer { color: #b2a9c1; font-size: .8rem; }

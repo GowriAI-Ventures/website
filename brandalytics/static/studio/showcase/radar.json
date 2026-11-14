@@ -1,0 +1,401 @@
+[
+  {
+    "input": {
+      "brand": "HOKA",
+      "peers": [
+        "Brooks",
+        "ASICS",
+        "Nike"
+      ],
+      "query": "What are the best running shoes for new runners?",
+      "country": "us"
+    },
+    "organic": [
+      {
+        "url": "https://onclouder.com/best-beginner-running-shoes-to-start-your-journey/?srsltid=AYCX9vLkZmqMm027dMylqyA6qvTdJzIUaBWWo-TTMRUWj2XkLzsikbxd",
+        "domain": "onclouder.com",
+        "title": "Best Beginner Running Shoes to Start Your Journey",
+        "snippet": "Your First Step Starts With the Right Shoe ; Hoka Mach 6, Lightweight energy return, 5mm, ~$150 ; Puma Velocity Nitro 4, Budget-friendly performance, 10mm, ~$140 ...Read more",
+        "rank": 1,
+        "brands": [
+          "HOKA"
+        ]
+      },
+      {
+        "url": "https://www.thetoprunningshoes.com/best-running-shoes-for-beginners/",
+        "domain": "thetoprunningshoes.com",
+        "title": "Best Running Shoes For Beginners",
+        "snippet": "1. Adidas Men's Lite Racer Adapt 3.0 Running … 5. Nike React Flyknit 2 Running shoe: The Nike Epic React Flyknit 2 was designed with running in ...",
+        "rank": 2,
+        "brands": [
+          "Nike"
+        ]
+      },
+      {
+        "url": "https://www.lemon8-app.com/experience/running-shoe-brands-for-beginners?region=us",
+        "domain": "lemon8-app.com",
+        "title": "What Are the Best Running Shoe Brands for Beginners?",
+        "snippet": "Brands like Brooks, ASICS, Hoka, New Balance, Nike, On Running, and Saucony offer excellent options for beginners.",
+        "rank": 3,
+        "brands": [
+          "HOKA",
+          "Brooks",
+          "ASICS",
+          "Nike"
+        ]
+      },
+      {
+        "url": "https://www.yahoo.com/lifestyle/7-best-beginner-running-shoes-173448617.html",
+        "domain": "yahoo.com",
+        "title": "7 Best Beginner Running Shoes That Are All Podiatrist- ...",
+        "snippet": "With great cushioning, arch support and flexibility, Mizuno Wave Inspire 19 Ssw Running Shoes are a top choice if you have plantar fascitis, ...Read more",
+        "rank": 4,
+        "brands": []
+      },
+      {
+        "url": "https://www.poizon.com/trends/best-running-shoes-for-beginner-runners?srsltid=AYCX9vIBdjded7rtvz2jZVyldTmcmbmi7SqgOnvzljTPOmSzGpfahaLy",
+        "domain": "poizon.com",
+        "title": "Best Running Shoes for Beginner Runners",
+        "snippet": "Shop Best Running Shoes for Beginner Runners at POIZON: Enjoy 400+ global brands,&nbsp;... 90% Results in 1-15 Mins. Nike Cortez Good Running ShoesAir Jordan ...",
+        "rank": 5,
+        "brands": [
+          "Nike"
+        ]
+      },
+      {
+        "url": "https://www.facebook.com/fb-answers/best-running-shoes-for-beginner-road-runners/",
+        "domain": "facebook.com",
+        "title": "Best Running Shoes for Beginner Road Runners",
+        "snippet": "Popular picks include the Nike Pegasus, ASICS Gel Nimbus, Brooks Ghost, and New Balance 1080, with budget options like the Nike Winflo available for under $70.Read more",
+        "rank": 6,
+        "brands": [
+          "Brooks",
+          "ASICS",
+          "Nike"
+        ]
+      },
+      {
+        "url": "https://blog.budgetratings.com/best-running-shoes-for-beginners/",
+        "domain": "blog.budgetratings.com",
+        "title": "Best Running Shoes For Beginners - Budget Ratings",
+        "snippet": "We love the New Balance Women's FuelCore Nergize V1 Sneaker because they are designed for comfort as much as style. These everyday running shoes ...Read more",
+        "rank": 7,
+        "brands": []
+      },
+      {
+        "url": "https://www.lemon8-app.com/experience/which-brand-offers-better-running-shoes-for-beginners?region=us",
+        "domain": "lemon8-app.com",
+        "title": "Beginner Shoe Picks | 2026 real user experience on Lemon8",
+        "snippet": "Popular choices among new runners include the HOKA Clifton 9, known for its plush cushioning, and the Brooks Ghost 15, praised for its it.",
+        "rank": 8,
+        "brands": [
+          "HOKA",
+          "Brooks"
+        ]
+      },
+      {
+        "url": "https://www.lemon8-app.com/experience/best-running-shoes-beginners?region=us",
+        "domain": "lemon8-app.com",
+        "title": "Beginner Shoe Picks | 2026 real user experience on Lemon8",
+        "snippet": "Hoka: Everyday: Hoka Clifton Race day: Hoka Rocket X 2 ASICS: Everyday: ASICS Gel Nimbus Race day: ASICS Meta speed Nike: Everyday: Nike ...Read more",
+        "rank": 9,
+        "brands": [
+          "HOKA",
+          "ASICS",
+          "Nike"
+        ]
+      },
+      {
+        "url": "https://shop.fitnessnstyle.com/blog/best-running-shoes-for-beginners",
+        "domain": "shop.fitnessnstyle.com",
+        "title": "Best Running Shoes for Beginners: No-Jargon Guide (2026)",
+        "snippet": "Six Beginner-Friendly Shoes Worth Trying · 1. Brooks Ghost 17 — Best all-rounder · 2. Hoka Clifton 10 — Best for extra cushioning · 3. ASICS Gel Nimbus 27 — Best ...Read more",
+        "rank": 10,
+        "brands": [
+          "HOKA",
+          "Brooks",
+          "ASICS"
+        ]
+      }
+    ],
+    "overview": {
+      "text": "",
+      "brands": [],
+      "sources": []
+    },
+    "metrics": [
+      {
+        "name": "HOKA",
+        "mentions": 5,
+        "in_overview": false
+      },
+      {
+        "name": "Brooks",
+        "mentions": 4,
+        "in_overview": false
+      },
+      {
+        "name": "ASICS",
+        "mentions": 4,
+        "in_overview": false
+      },
+      {
+        "name": "Nike",
+        "mentions": 5,
+        "in_overview": false
+      }
+    ],
+    "captured_at": "2026-11-14T20:30:51+00:00"
+  },
+  {
+    "input": {
+      "brand": "Fujifilm",
+      "peers": [
+        "Sony",
+        "Canon",
+        "Nikon"
+      ],
+      "query": "Best mirrorless camera for travel photography beginners",
+      "country": "us"
+    },
+    "organic": [
+      {
+        "url": "https://mirrorlessreview0.wordpress.com/2024/06/19/understanding-the-best-mirrorless-camera-for-travel-vlogs/",
+        "domain": "mirrorlessreview0.wordpress.com",
+        "title": "Understanding The Best Mirrorless Camera For Travel Vlogs",
+        "snippet": "The A7S III also offers exceptional low light performance, allowing you to take advantage of natural light even when shooting at night or under ...Read more",
+        "rank": 1,
+        "brands": []
+      },
+      {
+        "url": "https://www.photoimageplanet.com/top-5-mirrorless-cameras-for-travel/",
+        "domain": "photoimageplanet.com",
+        "title": "2025's Ultimate Travel Camera Guide: Top 5 Mirrorless Picks",
+        "snippet": "Expert comparison of 2025's top travel cameras: Fujifilm X-T5, Sony α7C II, Canon EOS R5 II, OM-5 & Canon R10. Find your perfect match!Read more",
+        "rank": 2,
+        "brands": [
+          "Fujifilm",
+          "Sony",
+          "Canon"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/r/Cameras/comments/1pn8r8z/mirrorless_camera_recommendation_for_travelling/",
+        "domain": "reddit.com",
+        "title": "Mirrorless Camera recommendation for travelling!",
+        "snippet": "Best in class focusing except for the Sony A6700 for several hundred more. Colors are awesome. Viewfinder is amazing. It also has several film ...Read more",
+        "rank": 3,
+        "brands": [
+          "Sony"
+        ]
+      },
+      {
+        "url": "https://www.thislifeoftravel.com/gear/best-beginner-mirrorless-cameras",
+        "domain": "thislifeoftravel.com",
+        "title": "Best Beginner Mirrorless Cameras",
+        "snippet": "Summary: The X-T200 is Fujifilm's best 'beginner' mirrorless camera and is a perfect starting point for anyone getting into photography.Read more",
+        "rank": 4,
+        "brands": [
+          "Fujifilm"
+        ]
+      },
+      {
+        "url": "https://www.huesofdelahaye.com/best-travel-cameras/",
+        "domain": "huesofdelahaye.com",
+        "title": "The Best Travel Camera For Beginners | Mirrorless, ...",
+        "snippet": "Fujifilm X-T20. Fujifilm is known to have one of the best range of mirrorless cameras on the market. They are loved by armatures and ...Read more",
+        "rank": 5,
+        "brands": [
+          "Fujifilm"
+        ]
+      },
+      {
+        "url": "https://www.pinterest.com/pin/837247387008152474/",
+        "domain": "pinterest.com",
+        "title": "The Best Travel Camera For Beginners",
+        "snippet": "Find the perfect travel camera for beginners with this guide. Explore options including mirrorless, compact, and digital cameras to capture your travel ...",
+        "rank": 6,
+        "brands": []
+      },
+      {
+        "url": "https://travelcreatorgear.com/best-travel-cameras-for-beginner-vs-intermediate-creators/",
+        "domain": "travelcreatorgear.com",
+        "title": "Best Travel Cameras for Beginner vs Intermediate Creators",
+        "snippet": "Sony ZV-1 ... This is ideal if you want professional-looking content without technical complexity. The Sony ZV-1 handles both photos and video ...Read more",
+        "rank": 7,
+        "brands": [
+          "Sony"
+        ]
+      },
+      {
+        "url": "https://www.shutyouraperture.com/shop/best-photography-gear/best-mirrorless-camera-for-beginners-2026/",
+        "domain": "shutyouraperture.com",
+        "title": "Best Mirrorless Camera for Beginners in 2026",
+        "snippet": "Best mirrorless camera for beginners in 2026. 5 real picks compared by AF, ecosystem, and price. Sony A6700 wins — here is why.",
+        "rank": 8,
+        "brands": [
+          "Sony"
+        ]
+      }
+    ],
+    "overview": {
+      "text": "",
+      "brands": [],
+      "sources": []
+    },
+    "metrics": [
+      {
+        "name": "Fujifilm",
+        "mentions": 3,
+        "in_overview": false
+      },
+      {
+        "name": "Sony",
+        "mentions": 4,
+        "in_overview": false
+      },
+      {
+        "name": "Canon",
+        "mentions": 1,
+        "in_overview": false
+      },
+      {
+        "name": "Nikon",
+        "mentions": 0,
+        "in_overview": false
+      }
+    ],
+    "captured_at": "2026-11-14T20:30:50+00:00"
+  },
+  {
+    "input": {
+      "brand": "Oatly",
+      "peers": [
+        "Califia Farms",
+        "Minor Figures",
+        "Chobani"
+      ],
+      "query": "Best oat milk for an iced latte",
+      "country": "us"
+    },
+    "organic": [
+      {
+        "url": "https://newcoffees.com/the-best-oat-milk-for-iced-coffee/",
+        "domain": "newcoffees.com",
+        "title": "The Best Oat Milk for Iced Coffee: The Smooth and Delicious ...",
+        "snippet": "Premium Options Brands like Oatly and Califia Farms are popular for iced coffee. For a cheaper option, try Silk or So Delicious. Organic Valley ...",
+        "rank": 1,
+        "brands": [
+          "Oatly",
+          "Califia Farms"
+        ]
+      },
+      {
+        "url": "https://www.lemon8-app.com/experience/best-oat-milks-for-lattes?region=us",
+        "domain": "lemon8-app.com",
+        "title": "The Ultimate Guide to the Best Oat Milks for Lattes",
+        "snippet": "Unsweetened, Clean-Ingredient Oat Milk: Look for oat milks that are free from added sugars, gums, and oils. These provide a neutral base that ...Read more",
+        "rank": 2,
+        "brands": []
+      },
+      {
+        "url": "https://www.facebook.com/groups/323147937534083/posts/664123616769845/",
+        "domain": "facebook.com",
+        "title": "what oatmilk latte to order?",
+        "snippet": "Morning! What oatmilk Latte’s y’all order I’m new to this and finally have a lil time to wait in my new location line.",
+        "rank": 3,
+        "brands": []
+      },
+      {
+        "url": "https://grabenord.com/blogs/blog/the-best-oat-milk-for-frothing?srsltid=AYCX9vKQLjmJtXA_n95Tgg88RAMndVkr0hwRJtxvX5rYaQS8C6-g2xw7",
+        "domain": "grabenord.com",
+        "title": "The Best Oat Milk for Frothing",
+        "snippet": "Our top picks—Oatly Barista Edition, Califia Farms Barista Blend, and Minor Figures—excel in these areas, offering creamy, stable foam that is ...Read more",
+        "rank": 4,
+        "brands": [
+          "Oatly",
+          "Califia Farms",
+          "Minor Figures"
+        ]
+      },
+      {
+        "url": "https://coffeecraftreview.com/best-oat-milk-for-coffee-latte-art/",
+        "domain": "coffeecraftreview.com",
+        "title": "Best Oat Milk for Coffee & Latte Art",
+        "snippet": "1. Oatly Barista Edition · 2. Minor Figures Barista Oat Milk · 3. Califia Farms Barista Blend Oat Milk · 4. Chobani Oat Barista Edition · 5. Pacific Foods Barista ...Read more",
+        "rank": 5,
+        "brands": [
+          "Oatly",
+          "Califia Farms",
+          "Minor Figures",
+          "Chobani"
+        ]
+      },
+      {
+        "url": "https://www.facebook.com/noomoo.official/posts/the-secret-to-finding-which-oat-milk-brand-is-the-creamiest-isnt-a-mysteryits-ma/1085846664276009/",
+        "domain": "facebook.com",
+        "title": "The secret to finding which oat milk brand is the creamiest ...",
+        "snippet": "Barista edition blends of oat milk are typically better suited for steaming and pouring latte art. “Our Barista Edition… is the product with ...",
+        "rank": 6,
+        "brands": []
+      },
+      {
+        "url": "https://www.facebook.com/fb-answers/which-oat-milk-froths-the-best/",
+        "domain": "facebook.com",
+        "title": "Which Oat Milk Froths the Best",
+        "snippet": "Oatly Barista blend is the most recommended oat milk for frothing, with Chobani Extra Creamy and Planet Oat Barista also getting strong mentions.Read more",
+        "rank": 7,
+        "brands": [
+          "Oatly",
+          "Chobani"
+        ]
+      },
+      {
+        "url": "https://www.lemon8-app.com/experience/the-best-oat-milk-brandfor-latte?region=us",
+        "domain": "lemon8-app.com",
+        "title": "Discovering the Best Oat Milk for Lattes",
+        "snippet": "Oatly is perhaps the most recognizable oat milk brand on the market. · Oatly has a creamy, smooth texture with a slightly sweet taste that pairs ...Read more",
+        "rank": 8,
+        "brands": [
+          "Oatly"
+        ]
+      },
+      {
+        "url": "https://cofebrew.com/best-oat-milk-for-coffee",
+        "domain": "cofebrew.com",
+        "title": "Best Oat Milk for Coffee: Barista Edition - CofeBrew",
+        "snippet": "Look for “barista edition” or “barista blend” on the label. These typically contain around 3, 4% fat, which gives that silky, latte‑worthy ...Read more",
+        "rank": 9,
+        "brands": []
+      }
+    ],
+    "overview": {
+      "text": "",
+      "brands": [],
+      "sources": []
+    },
+    "metrics": [
+      {
+        "name": "Oatly",
+        "mentions": 5,
+        "in_overview": false
+      },
+      {
+        "name": "Califia Farms",
+        "mentions": 3,
+        "in_overview": false
+      },
+      {
+        "name": "Minor Figures",
+        "mentions": 2,
+        "in_overview": false
+      },
+      {
+        "name": "Chobani",
+        "mentions": 2,
+        "in_overview": false
+      }
+    ],
+    "captured_at": "2026-11-14T20:30:50+00:00"
+  }
+]

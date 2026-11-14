@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:04,720
+Small media teams need a repeatable way to find useful stories and produce them.
+
+2
+00:00:04,720 --> 00:00:09,520
+In Market Radar, compare search visibility and open the evidence behind a result.
+
+3
+00:00:09,520 --> 00:00:14,960
+Carry the source into Creator Studio. Write the takeaway, choose the look, and pick a voice.
+
+4
+00:00:14,960 --> 00:00:20,960
+The same workflow can explain AI hardware, show a seasonal recipe, or break down a racing corner.
+
+5
+00:00:20,960 --> 00:00:25,040
+Our pilot will track retention, saves, and the cost to produce each episode.
+
+6
+00:00:25,040 --> 00:00:29,960
+Brandalytics gives a small team a way to research, produce, and publish on a schedule.
