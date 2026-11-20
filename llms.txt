@@ -1,6 +1,6 @@
 # GowriAI.Ventures
 
-GowriAI.Ventures builds and backs practical SI / AI products across security, quantitative reasoning, valuation, and applied enterprise workflows.
+GowriAI.Ventures builds and backs AI products for brand marketing, retrieval and memory, cybersecurity, math learning, and engineering and construction.
 
 ## Site
 - Homepage: https://gowriai.ventures/
@@ -10,28 +10,39 @@ GowriAI.Ventures builds and backs practical SI / AI products across security, qu
 GowriAI.Ventures builds toward Super Intelligence (SI) through focused products in retrieval, agentic workflows, security, and evaluation. The venture platform focuses on increasingly capable systems that connect reasoning, knowledge, and action, with clear measures of usefulness and reliability.
 
 ## Initiatives
-- AgentFuzz.ai: https://agentfuzz.ai
-  AI vulnerability assessment and assurance aligned with OWASP LLM Top 10 and NIST AI RMF.
-- ThreatVault.ai: https://threatvault.ai
+- [Brandalytics.ai](https://brandalytics.ai/)
+  A shared workspace for AI-powered brand research, campaign creation, and creative review, with brand context, guideline checks, and approvals.
+- [CoreCortex.io](https://corecortex.io/)
+  An evidence-first memory engine for building retrieval systems you can inspect, measure, and improve across real AI knowledge workflows.
+- [ThreatVault.ai](https://threatvault.ai)
   Curated AI threat intelligence, adversarial technique libraries, and automated coverage analysis for teams securing AI systems.
-  In partnership with Cesta: https://cestatech.com/
-- Mathz.app: https://mathz.app
-  Interactive math lessons from Algebra to Calculus focused on intuition through sliders, graphs, and direct manipulation.
-- Parametri.ai: https://parametri.ai/
-  AI for engineering and construction workflows, turning blueprints and floor plans into intelligent, interactive documents.
+  In partnership with [Cesta](https://cestatech.com/).
+- [AgentFuzz.ai](https://agentfuzz.ai)
+  AI vulnerability assessment and assurance for AI systems, aligned with OWASP LLM Top 10 and NIST AI RMF to identify prompt injection, data leakage, and emerging risks.
+- [Mathz.app](https://mathz.app)
+  Interactive math lessons from Algebra to Calculus where sliders, graphs, and direct manipulation build real intuition.
+- [Parametri.ai](https://parametri.ai/)
+  Transform blueprints and floor plans into intelligent, interactive documents with AI-powered text extraction, object detection, and design analysis.
+- [NullVectorLab.com](https://nullvectorlab.com/)
+  AI-native cybersecurity platform and services that unify threat intelligence, AI/LLM security, human risk, and risk prioritization into one operating layer.
 
 ## Capabilities
 - Brand research, campaign creation, and creative review through Brandalytics.ai
 - LLM systems and agentic workflows
 - Retrieval, search, and knowledge systems
 - Vision, document understanding, and evaluation systems
-- Applied SI / AI product design across security, reasoning, and enterprise workflows
+- Applied AI product design across brand marketing, cybersecurity, math learning, and engineering and construction
 
-## Brandalytics.ai
-- Website: https://brandalytics.ai/
-- A shared workspace for AI-powered brand research, campaign creation, and creative review, with brand context, guideline checks, and approvals.
+## About Us
+GowriAI.Ventures builds and backs AI-powered products and businesses. We combine product development, technical expertise, and investment to grow a portfolio of initiatives, developed directly and through partnerships.
 
-## Associates
+### Leadership
+- Manoj Bharadwaj, CEO
+- Aarti Bharadwaj, COO
+
+Manoj and Aarti also co-founded [CloudCosmos](https://cloudcosmos.tech/), the associated services company, while GowriAI.Ventures remains the product and venture platform.
+
+### Associates
 - Ahi Bharadwaj, Brand & Marketing Strategist
   Oversees brand and marketing strategy for GowriAI.Ventures and all its initiatives, with a special focus on Brandalytics.ai.
   LinkedIn: https://www.linkedin.com/in/ahi-bharadwaj/
