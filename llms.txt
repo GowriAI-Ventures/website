@@ -21,7 +21,17 @@ GowriAI.Ventures builds toward Super Intelligence (SI) through focused products 
   AI for engineering and construction workflows, turning blueprints and floor plans into intelligent, interactive documents.
 
 ## Capabilities
+- Brand research, campaign creation, and creative review through Brandalytics.ai
 - LLM systems and agentic workflows
 - Retrieval, search, and knowledge systems
 - Vision, document understanding, and evaluation systems
 - Applied SI / AI product design across security, reasoning, and enterprise workflows
+
+## Brandalytics.ai
+- Website: https://brandalytics.ai/
+- A shared workspace for AI-powered brand research, campaign creation, and creative review, with brand context, guideline checks, and approvals.
+
+## Associates
+- Ahi Bharadwaj, Brand & Marketing Strategist
+  Oversees brand and marketing strategy for GowriAI.Ventures and all its initiatives, with a special focus on Brandalytics.ai.
+  LinkedIn: https://www.linkedin.com/in/ahi-bharadwaj/

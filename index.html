@@ -111,6 +111,15 @@
               "name": "CoreCortex.io",
               "url": "https://corecortex.io/"
             }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "Brandalytics.ai",
+              "url": "https://brandalytics.ai/"
+            }
           }
         ]
       }
@@ -468,6 +477,14 @@
       filter: grayscale(1);
     }
 
+    .person-image.initials {
+      display: grid;
+      place-items: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
     .person h3 {
       margin: 0 0 6px;
       font-size: 1.08rem;
@@ -619,6 +636,13 @@
         image: "/assets/images/initiatives/corecortex-io.png",
         description: "An evidence-first memory engine for building retrieval systems you can inspect, measure, and improve across real AI knowledge workflows.",
         tags: ["Retrieval Systems", "Memory Engine", "Evidence-First AI"]
+      },
+      {
+        name: "Brandalytics.ai",
+        url: "https://brandalytics.ai/",
+        image: "/assets/images/initiatives/brandalytics-ai.png",
+        description: "A shared workspace for AI-powered brand research, campaign creation, and creative review, with brand context, guideline checks, and approvals.",
+        tags: ["Brand Research", "Campaign Creation", "Creative Review"]
       }
     ];
 
@@ -716,6 +740,22 @@
           </p>
         </div>
         <div class="team" id="leadership-grid"></div>
+      </section>
+      <section class="section" id="associates" aria-labelledby="associates-title">
+        <div class="section-header">
+          <h2 id="associates-title">Associates</h2>
+        </div>
+        <div class="team">
+          <article class="person">
+            <div class="person-top">
+              <div class="person-image initials" aria-label="Ahi Bharadwaj initials">AB</div>
+              <a class="person-link" href="https://www.linkedin.com/in/ahi-bharadwaj/" rel="noopener" target="_blank" aria-label="Ahi Bharadwaj LinkedIn">in</a>
+            </div>
+            <h3>Ahi Bharadwaj</h3>
+            <p class="person-role">Brand &amp; Marketing Strategist</p>
+            <p>Oversees brand and marketing strategy for GowriAI.Ventures and all its initiatives, with a special focus on <a href="https://brandalytics.ai/" rel="noopener" target="_blank">Brandalytics.ai</a>.</p>
+          </article>
+        </div>
       </section>
     </main>
 
