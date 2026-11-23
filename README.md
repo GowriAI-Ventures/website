@@ -1,4 +1,4 @@
-# GowriAI.Ventures Website
+# GowriAI Website
 
 Static website deployed through GitHub Pages. Run `make serve` to preview at
 http://localhost:8000. No build step is required.
