@@ -1,6 +1,6 @@
 # GowriAI.Ventures
 
-GowriAI.Ventures builds and backs AI products for brand marketing, retrieval and memory, cybersecurity, math learning, and engineering and construction.
+GowriAI.Ventures builds and backs AI products for agentic operations, brand marketing, retrieval and memory, cybersecurity, math learning, and engineering and construction.
 
 ## Site
 - Homepage: https://gowriai.ventures/
@@ -10,6 +10,8 @@ GowriAI.Ventures builds and backs AI products for brand marketing, retrieval and
 GowriAI.Ventures builds toward Super Intelligence (SI) through focused products in retrieval, agentic workflows, security, and evaluation. The venture platform focuses on increasingly capable systems that connect reasoning, knowledge, and action, with clear measures of usefulness and reliability.
 
 ## Initiatives
+- [Yantriks.ai](https://yantriks.ai/)
+  Agentic operations that learn from past team decisions, gather facts, run checks, and prepare next steps for human review.
 - [Brandalytics.ai](https://brandalytics.ai/)
   A shared workspace for AI-powered brand research, campaign creation, and creative review, with brand context, guideline checks, and approvals.
 - [CoreCortex.io](https://corecortex.io/)
